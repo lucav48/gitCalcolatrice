@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Secondo operando:");
         double b = scanner.nextDouble();
 
-        System.out.println("Operazione (+, -, *, /)");
+        System.out.println("Operazione (+, -, *, /, %)");
         String op = scanner.next();
         double result = 0;
         switch (op){
@@ -25,6 +25,9 @@ public class Main {
             break;
             case "/":
                 result = a/b;
+            break;
+            case "%":
+                result = a %b;
             break;
         }
         System.out.println("Risultato: " + result);
