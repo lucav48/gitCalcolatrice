@@ -20,15 +20,7 @@ public class Main {
             case "-":
                 result = a-b;
             break;
-            case "*":
-                result = a*b;
-            break;
-            case "/":
-                result = a/b;
-            break;
-            case "%":
-                result = a %b;
-            break;
+            
         }
         System.out.println("Risultato: " + result);
     }
